@@ -55,8 +55,8 @@ HOOK @ $8084FDB8
 Bowser and Giga Bowser Can Be Compressed [DukeItOut]
 ####################################################
 op NOP @ $808275B4
-byte 0x4C @ $8081DF63
-byte 0x6C @ $8081DF7B
+byte 0x4C @ $8081DF63	# Used by Bowser
+byte 0x6C @ $8081DF87	# Used by Giga Bowser!
 word 0 @ $80AD8028
 
 ###############################################################
