@@ -44,8 +44,8 @@ Nogh's PR Skin - Psycho_Ghost - http://forums.kc-mm.com/Gallery/BrawlView.php?Nu
 
 Falco
 Cardinal Falco - SaltedMilk, The SuperestSmashBros - http://forums.kc-mm.com/Gallery/BrawlView.php?Number=202879 - https://www.dropbox.com/s/zd6oblkmy7eecok/Cardinal%20Falco%20Cosmetics.zip?dl=0
-Assault Falco - KorytheMaril, Gamma Ridley, Pavlova, windhunter7 - http://forums.kc-mm.com/Gallery/BrawlView.php?Number=216065 - https://www.dropbox.com/s/4zue09v5zzja93h/Assault_Falco.zip?dl=0
 Plague Doctor - SJ - https://twitter.com/Raventoly/status/1531746461410639872
+Saiyan Armor Falco - Homiebuild
 
 Falcon
 ORLY's skin - Wyld
@@ -73,6 +73,7 @@ Ivysaur
 Maofever's skin - Maofever
 Blue Kool-aid Substitute Ivysaur - mawwwk, LnktheWolf, StarWaffle, Nanobuds, Moblin, Ryztiq
 Sabre's skin - Midnight Blue, Pyro, Fingy
+Summer Ivysaur - MarioDox
 
 Lucas
 Frost skins - Frost, SJS
@@ -144,6 +145,10 @@ NES Toon Link - Sir Ethan - http://forums.kc-mm.com/Gallery/BrawlView.php?Number
 Shrug's Toon Link - Wyld
 Toon Link Recolors -  Tyleto, Carter, ShinF, DrKoala, LJSTAR, bizzozeron, CSP - 
 http://forums.kc-mm.com/Gallery/BrawlView.php?Number=206274 - http://forums.kc-mm.com/Gallery/BrawlView.php?Number=217172 - http://forums.kc-mm.com/Gallery/BrawlView.php?Number=31892
+
+Wario
+Pirateland Wario - bizzozeron
+
 
 Wolf
 Switch's skin - Gallo
