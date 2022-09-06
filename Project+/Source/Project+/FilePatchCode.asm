@@ -280,8 +280,8 @@ string "stageinfo/"                     @ $80550CA8 # This address might change 
 * E0000000 80008000
 
 * 20523400 00000001 # If 80523400 is equal to 1
-string "/menu2/mu_menumain.pac"         @ $806FB248
-string "mu_menumain_en.pac"             @ $817F62BC
+string "/menu2/il_menumain.pac"         @ $806FB248
+string "il_menumain_en.pac"             @ $817F62BC
 string "/menu2/il_selcharacter2.pac"    @ $806FF308
 string "il_selcharacter2_en.pac"        @ $817F634D
 string "/menu2/il_selmap.pac"           @ $806FF3F0
