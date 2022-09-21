@@ -1,7 +1,7 @@
 ######################################################################################
 ILPM Stagelist [Bird]
 ######################################################################################
-* 20523400 00000001 # If 80523400 is equal to 1
+* 20523400 00000000 # If 80523400 is equal to 0
 op mr r0, r4				@ $806B8F5C # Access stage location in table
 op lbzx r3, r3, r0			@ $806B8F64	# Entry variable is a byte, rather than a half
 op rlwinm r0, r3, 1, 0, 30	@ $800AF618	# Access stage to load
@@ -44,7 +44,7 @@ TABLE_1:
 0x1A, | # Smashville
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
-0x0A, | # Metroid Lab/Crateria
+0x1D, | # PictoChat
 0x2B, | # Training Room
 0x2B  | # Training Room
 
@@ -77,7 +77,7 @@ TABLE_2:
 0x25, | # Corneria
 0x27, | # Planet Zebes
 0x1F, | # Temple
-0x1D, | # PictoChat
+0x0A, | # Metroid Lab/Crateria
 0x16, | # Distant Planet
 0x2B  | # Training Room
 
@@ -135,7 +135,7 @@ half[62] |	# Stage Count + 2
 
 SkipStageTables:
 .RESET
-* 20523400 00000001 # If 80523400 is equal to 1
+* 20523400 00000000 # If 80523400 is equal to 0
 byte 11 @ $806B929C # Page 1
 byte 28 @ $806B92A4 # Page 2
 byte 22 @ $80496002 # Page 3
