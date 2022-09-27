@@ -1215,7 +1215,7 @@ HOOK @ $8009D0C0
 .include Source/Stagelists/ILPMStagelist.asm
 .include Source/Stagelists/InvincibleStagelist.asm
 .include Source/Stagelists/Middle3Stagelist.asm
-.include Source/Stagelists/PMBRStagelist.asm
+.include Source/Stagelists/TheatreStagelist.asm
 
 op lis r4, 0x8049 		@ $800AF58C
 op lwz r4, 0x5D00(r4)	@ $800AF594

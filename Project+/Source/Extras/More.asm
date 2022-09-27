@@ -48,7 +48,7 @@ Set random stagelist based on Code Menu Stagelist setting (Middle 3) [Bird]
 * E0000000 80008000
 
 ############################################################################
-Set random stagelist based on Code Menu Stagelist setting (PMBR) [Bird]
+Set random stagelist based on Code Menu Stagelist setting (Theatre) [Bird]
 ############################################################################
 * 20523400 00000003 # If Code Menu stagelist is set to 3
 * 20523340 00000000 # If 80523320 is 00000000
