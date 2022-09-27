@@ -1,7 +1,7 @@
 ######################################################################################
 PMBR Stagelist [Bird]
 ######################################################################################
-* 20523400 00000002 # If 80523400 is equal to 2
+* 20523400 00000003 # If 80523400 is equal to 3
 op mr r0, r4				@ $806B8F5C # Access stage location in table
 op lbzx r3, r3, r0			@ $806B8F64	# Entry variable is a byte, rather than a half
 op rlwinm r0, r3, 1, 0, 30	@ $800AF618	# Access stage to load
@@ -88,7 +88,7 @@ TABLE_3:
 0x2D, | # Mario Circuit
 0x38, | # Mushroom Kingdom
 0x3B, | # Rainbow Cruise
-0x32, | # Oil Drum Alley
+0x32, | # Minecart Madness
 0x33, | # Jungle Japes
 0x2E, | # Clock Town
 0x36, | # Cookie Country
@@ -122,14 +122,14 @@ half[61] |	# Stage Count + 2
 0x2E3B, 0xFF64, 0xFF64, 0x373C, | # Pokemon Stadium 2, NOTHING, NOTHING, Training Room
 | # NEW SLOTS
 0x4023, 0x4124, 0x4225, 0x251F, | # Dracula's Castle, Mario Circuit, Clock Town, Hanenbow
-0x4427, 0x4528, 0x4629, 0x2B34, | # Dead Line, Dinosaur Land, Oil Drum Alley, Jungle Japes
+0x4427, 0x4528, 0x4629, 0x2B34, | # Dead Line, Dinosaur Land, Minecart Madness, Jungle Japes
 0x482B, 0x0B0B, 0x4A2D, 0x4B2E, | # Bell Tower, Norfair, Cookie Country, Venus Lighthouse
 0x4C2F, 0x4D30, 0x4E31, 0x4F3D, | # Mushroom Kingdom, WarioWare, Subspace, Rainbow Cruise
 0x503E				| # Poke Floats
 
 SkipStageTables:
 .RESET
-* 20523400 00000002 # If 80523400 is equal to 2
+* 20523400 00000003 # If 80523400 is equal to 3
 byte 10 @ $806B929C # Page 1
 byte 25 @ $806B92A4 # Page 2
 byte 24 @ $80496002 # Page 3

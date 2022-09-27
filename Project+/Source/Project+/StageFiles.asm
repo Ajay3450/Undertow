@@ -1212,8 +1212,9 @@ HOOK @ $8009D0C0
     stw r12, 0xB8(r3)       # sets Camera Speed from PAC, used to do so from f2
 }
 
-.include Source/Stagelists/TheatreStagelist.asm
 .include Source/Stagelists/ILPMStagelist.asm
+.include Source/Stagelists/InvincibleStagelist.asm
+.include Source/Stagelists/Middle3Stagelist.asm
 .include Source/Stagelists/PMBRStagelist.asm
 
 op lis r4, 0x8049 		@ $800AF58C
